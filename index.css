@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+  
+    gap: 1.2rem;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+.box {
+  margin-left: 70%;
+
+
+}
+span{
+    display: flex;
+}
+
+body{
+ background-image: url('./chad-montano-MqT0asuoIcU-unsplash.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+.offcanvas{
+    background-color:rgba(0, 0, 0, 0.577);
+    color: white;
+}
+.box ul li:hover{
+   color: red;
+}
+.brand{
+    background-color: rgba(0, 0, 0, 0.345);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+   
+    background-color:#ffff00;
+    align-items: center;
+    margin-left: 60%;
+     box-shadow: 5px 10px;
+     border-top-right-radius: 20px;
+     margin-right: 50px;
+     cursor: pointer;
+
+}
+.hot{
+    align-items: center;
+    color: rgba(252, 7, 7, 0.905);
+    margin-top: 40px;
+   margin-left: 20%;
+  
+}
+.hot:hover{
+    background-color: rgba(0, 0, 255, 0.784);
+    box-shadow: 5px 10px;
+   
+}
+.list2{
+    color: #ffff00;
+}
+.effect li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.card{
+    border-bottom-right-radius: 20px;
+   background-color:rgba(251, 168, 13, 0.43);
+   color: white;
+}
